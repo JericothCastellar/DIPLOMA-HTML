@@ -1,0 +1,17 @@
+#Divprincipal{
+   border:2px solid black;
+   border-radius:22px;
+   margin: 30px;
+   padding: 20px;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#Letra1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
