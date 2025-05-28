@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diploma Creacion</title>
+    <link rel="stylesheet" href="../css/diploma.css">
+</head>
+<body>
+    
+        <form action="DatosD.php" method="post">
+            <div id="Divprincipal">
+                       <h1>GESTOR DE DIPLOMAS</h1>
+            <h1></h1>
+
+            <label id="Letra1">Nombre de Estudiantes</label>
+            <input type="text" name="nombre_estudiante" required>
+
+            <label id="Letra1">Cedula</label>
+            <input type="number" name="cedula" required >
+
+            <label id="Letra1">Carrera</label>
+            <input type="text" name="carrera">
+
+            <label id="Letra1">Nomnbre cordinador</label>
+            <input type="text" name="nombre_cordinador" required>
+
+            <label id="Letra1">Nombre institucion</label>
+            <input type="text" name="nomre_institucion" required>
+
+            <label id="Letra1">Fecha generacion Diploma</label>
+            <input type="date" name="fecha" required>
+
+            </div>
+            <button type="submit">AGREGAR DIPLOMA</button>
+            <button type="button">GENERAR REPORTE</button>
+        </form>
+   
+</body>
+</html>
