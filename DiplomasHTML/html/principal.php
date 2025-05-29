@@ -10,12 +10,12 @@
 
 <body>
     <div id="divPrincipal">
-        <a href="../html/diploma.html">
+        <a href="../html/diploma.php">
             <div class="button_slide slide_left">
                 CREAR DIPLOMA
             </div>
         </a>
-        <a href="../html/verdiplomas.html">
+        <a href="../html/verdiplomas.php">
             <div class="button_slide slide_diagonal">
                VER DIPLOMAS
             </div>
